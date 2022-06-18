@@ -8,16 +8,16 @@ The package `r-base` in its-pointless repo is outdated and incompatible with the
 
 So I built it myself. I hope you enjoy it.
 
-Download: link
+Download: https://github.com/kxxt/termux/releases/download/R-4.2.0-1/R-4.2.0-1-termux-arm64.tar.xz
 
 Usage: (You'll need to setup its-pointless repo to install `libgfortran5`)
 
 ```shell
-wget ...
-tar xJf R-4.2.0-termux-arm64.tar.xz $PREFIX
+wget https://github.com/kxxt/termux/releases/download/R-4.2.0-1/R-4.2.0-1-termux-arm64.tar.xz
+tar xJf R-4.2.0-1-termux-arm64.tar.xz $PREFIX
 pkg install libgfortran5
 # Start R
-$PREFIX/R-4.2.0/bin/R
+$PREFIX/local/R-4.2.0/bin/R
 ```
 
-You can append `$PREFIX/R-4.2.0/bin/` to PATH  in your `.bashrc` or `.zshrc` so that you can execute `R` directly.
+You can append `$PREFIX/local/R-4.2.0/bin/` to `$PATH` in your `.bashrc` or `.zshrc` so that you can execute `R` directly.
