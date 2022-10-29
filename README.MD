@@ -50,3 +50,7 @@ R is now configured for aarch64-unknown-linux-gnu
 
   Recommended packages:        yes
 ```
+
+## Cling
+
+A partially working cling. See https://github.com/kxxt/prebuilt-cling-for-android
